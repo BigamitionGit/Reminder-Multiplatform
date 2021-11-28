@@ -1,0 +1,18 @@
+disabled_rules:
+- trailing_whitespace
+- leading_whitespace
+- trailing_newline
+line_length:
+  warning: 150
+  ignores_comments: true
+identifier_name:
+  min_length: 1
+  max_length:
+    warning: 40
+    error: 60
+
+excluded:
+  - fastlane
+  - Pods
+  - vendor
+  - Tools/.build

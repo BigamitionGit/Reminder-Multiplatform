@@ -1,0 +1,23 @@
+--swiftversion 5.3
+
+--exclude Pods,fastlane,Tools/.build
+
+--wraparguments before-first
+--wrapparameters before-first
+--wrapcollections before-first
+--closingparen balanced
+
+--stripunusedargs closure-only
+
+--ifdef no-indent
+
+--disable wrapMultilineStatementBraces 
+
+--self init-only
+--guardelse same-line
+--disable redundantRawValues
+--disable trailingclosures
+--disable trailingCommas
+--disable strongOutlets
+
+--trimwhitespace nonblank-lines

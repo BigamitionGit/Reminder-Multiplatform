@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  iosApp
+
+  Created by 細田大志 on 2021/12/08.
+  Copyright © 2021 orgName. All rights reserved.
+*/
+
+"Reminder Group Today" = "Today";
+"Reminder Group Flag" = "Flag";
+"Reminder Group All" = "All";

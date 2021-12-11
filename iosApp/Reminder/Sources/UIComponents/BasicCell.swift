@@ -12,7 +12,12 @@ public struct BasicCell: View {
     public init() {}
     
     public var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(L10n.reminderGroupAll)
+                .foregroundColor(Color(uiColor: Asset.accentColor.color))
+            Text(L10n.reminderGroupToday)
+            Image(uiImage: Asset.apple.image)
+        }
     }
 }
 

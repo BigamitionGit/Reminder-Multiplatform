@@ -1,0 +1,11 @@
+strings:
+  - inputs: Reminder/Sources/UIComponents/en.lproj
+    outputs:
+      templateName: structured-swift5
+      output: Reminder/Sources/UIComponents/Resources/Strings.swift
+
+xcassets:
+  - inputs: Reminder/Sources/UIComponents/Assets.xcassets
+    outputs:
+      templateName: swift5
+      output: Reminder/Sources/UIComponents/Resources/Assets.swift

@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Reminder",
+    defaultLocalization: "en",
     platforms: [.iOS(.v15)],
     products: [
         .library(
